@@ -7,5 +7,9 @@ namespace GitTestDemo.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
+        public EmployeeController()
+        {
+            Console.Write("test");  
+        }
     }
 }
