@@ -24,7 +24,7 @@ namespace GitTestDemo.Controllers
 
             _logger.LogInformation("test");
 
-            _logger.LogInformation("test log");
+            _logger.LogInformation("test log 123");
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
